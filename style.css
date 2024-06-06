@@ -15,41 +15,49 @@ body{
     color: white;
 }
 p{
-    padding: 30px;
-    text-align: justify;
+    font-size: 15px;
+    width: 50%;
+    padding: 10px;
+    margin: 5px auto;
+   
 }
 input{
-    width: 100%;
+    width: 50%;
     padding: 10px;
     margin-bottom: 12px;
     border: none;
 }
-
+h1{
+    padding-bottom:  14px;
+    font-size: 24px;
+}
 button{
-    width: 100%;
-    padding: 8px;
+    font-size: 16px;
+    width: 50%;
+    padding: 10px;
     background-color:transparent;
     color: white;
     border-radius: 10px;
-    transition: opacity 0.4s;
+    border:0.1px solid rgb(255, 255, 255);
+    margin: 5px auto;
+    cursor:pointer;
 }
-
+button:hover{
+  background-color:  rgb(89, 89, 224);
+}
+button:active{
+    background-color: beige;
+}
+.calendario{
+    width: 15%;
+    text-align: center;
+}
 label{
     font-size: 20px;
 }
-.recuperar{
-    padding-bottom: 10px;
-    border: none;
-}
-.entrar{
-    padding-bottom: 10px;
-}
-.registrar{
-    padding-bottom:  10px;
-}
-.login{
-    padding-bottom:  10px;
-}
-.sobre{
-  padding-bottom:  10px;
-}
+
+
+table, th, td {
+    border:0.1px solid rgb(255, 255, 255);
+    margin: 20px auto;
+  }
